@@ -9,7 +9,7 @@
 
 	window.addEventListener('message', (event) => {
   // Check if the message is coming from the trusted origin (the first application)
-  if (event.origin === 'http://localhost:65266/') { // Replace with the origin of the first application
+  if (event.origin === 'https://fabulous-alfajores-263cf8.netlify.app/') { // Replace with the origin of the first application
     // Get the username and password values from the message
     const username = event.data.username;
     const password = event.data.password;
@@ -74,7 +74,7 @@ function handleLogout() {
   </script>
   
   <main>
-	<h1>Add Name</h1>
+	<h1>Now You Able To Play This Application</h1>
 	<form on:submit|preventDefault={handleSubmit}>
 	  <label>
 		Name:
