@@ -50,7 +50,7 @@ function handleLogout() {
 	}
 	function navigateToLogin() {
     // Redirect to the login page
-    window.location.href = 'http://localhost:65266/';
+    window.location.href = 'https://fabulous-alfajores-263cf8.netlify.app/';
   }
 
 	function resetForm() {
